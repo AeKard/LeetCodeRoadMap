@@ -3,10 +3,10 @@
 # """
 #     Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such
 # """
-class Solution:
+class SolutionContain:
     def duplicate(self, nums):
         take = 0
-        Solution.Sort(nums)
+        SolutionContain.Sort(nums)
         for i in range(0 , len(nums) - 1):
             take +=1
             if nums[i] == nums[i + 1]:
